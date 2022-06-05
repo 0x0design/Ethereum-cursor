@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+        .disabled { border: 3px solid;
+            border-image: conic-gradient(from var(--angle), lightgray, lightgray, lightgray, lightgray) 1 !important;
+        }
+        body {
+          --angle: 0deg;
+          border: 3px solid;
+          border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+          min-height: 217px;
+      }
+      .expand {
+        min-height: 485px !important;
+    }
+</style>
+</head>
+<body style="width:260px;  height: 217px; overflow: hidden;" class="disabled">
+    <div id="container" style="padding:15px;width: 230px;">
+        <div class="header">
+            <p class="tm" style="text-align: center; margin: 7px 0px 15px 0px;"><b>Select your favorite Ethereum cursor</b></p>
+        </div>
+        <div class="content" id="content" style="margin-top: 10px;" >
+           <div id="jg79l0" class="bob-on-hover" style="margin:13px; display:inline-block;">
+            <img style="height: 25px;" src="eth_cursor_2x.png">
+        </div>
+        <div id="d1oe2X" class="bob-on-hover" style="margin:13px; display:inline-block;">
+            <img style="height: 25px;" src="eth_diamond_cursor_2x.png">
+        </div>
+        <div id="bT52Dr" class="bob-on-hover" style="margin:13px; display:inline-block;">
+            <img style="height: 25px;" src="eth_black_cursor_2x.png">
+        </div>
+        <div id="ctI13h" class="bob-on-hover" style="margin:13px; display:inline-block;">
+            <img style="height: 25px;" src="eth_colors_cursor_2x.png">
+        </div>
+        <div id="b62fGl" class="bob-on-hover" style="margin:13px; display:inline-block;">
+            <img style="height: 25px;" src="eth_blu_cursor_2x.png">
+        </div>
+        <div id="il98sA" class="bob-on-hover" style="margin:13px; display:inline-block;" d>
+            <img style="height: 25px;" src="eth_inverted_cursor_2x.png">
+        </div>
+        <div id="cf56Rt" class="bob-on-hover" style="margin:13px; display:inline-block;" >
+            <img style="height: 25px;" src="eth_colorfull_cursor_2x.png">
+        </div>
+        <div id="wgR31Q" class="bob-on-hover" style="margin:13px; display:inline-block;" >
+            <img style="height: 25px;" src="eth_white_cursor_2x.png">
+        </div>
+        <div id="g56dVr" class="bob-on-hover" style="margin:13px; display:inline-block;" >
+            <img style="height: 25px;" src="eth_gold_cursor_2x.png">
+        </div>
+        <div id="nd1Xt3" class="bob-on-hover" style="margin:13px 9px; display:inline-block;" >
+            <img style="height: 29px;" src="eth_neon_cursor_2x.png">
+        </div>
+    </div>
+    <div id="footer" class="footer" style="text-align: center; ">
+        <p style="text-align: center;">With 💚 By <a style="color: inherit; text-decoration: none;" href="https://0x0.design" target="_blank"><b class="rainbow">0x0</b></a> — <span id="expandspan" >Support <b style="font-size:16px;">☕</b></span> </p>
+        <p style="text-align: center;margin-top: 20px;">⬇ &nbsp;Send something 🍩 &nbsp;⬇</p>
+        <div id="tooltip">
+            <p id="wa2sM4e" style="text-align: center; font-size:8px;">0x0E5ff808Eb7f8DB12E3a2B7672E48BA990F60472</p>
+            <span id="tooltiptext">Copied</span>
+        </div>
+        <img class="wqrc0d"width="60%" src="walletaddress.png">
+        <p style="text-align: center; font-size:13px; margin: 4px;"><img class="mmlogo" width="20px" src="metamask_img.png"><img class="mmlogoty" style="margin-left: 10px;"height="20px"src="metamask_img3.png"></p>
+        <div style="width: 220px; margin: 0 auto;">
+         <p style="border-top: 1px solid gray;text-align: center;padding-left: 10px;padding-top: 9px;">Disable extension: 
+            <label class="switch">
+              <input id="checkbox" type="checkbox" class="switch-input" >
+              <span class="switch-label" data-on="On" data-off="Off"></span>
+              <span class="switch-handle"></span>
+          </label>
+      </p>
+  </div>
+</div>
+</div>
+</body>
+<script src="popup.js">
+</script>
+</html>
